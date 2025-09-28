@@ -62,6 +62,14 @@ const Home = () => {
                     // pagination={{ clickable: true }}
                     autoplay={{ delay: 2000 }}
                     loop={true}
+                      breakpoints={{
+      320: { slidesPerView: 1 },   // Mobile portrait
+      480: { slidesPerView: 1.5 }, // Small mobiles
+      640: { slidesPerView: 2 },   // Tablets portrait
+      768: { slidesPerView: 2.5 }, // Tablets landscape
+      1024: { slidesPerView: 3 },  // Small laptops
+      1200: { slidesPerView: 4 },  // Desktops
+    }}
                 >
 
                     <div className="row">
@@ -121,16 +129,16 @@ const Home = () => {
 
             <div className="container mt-5 mb-3">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-12">
                         <img src="assets/images/west20.png" className="img-fluid"></img>
                         <p className="cstm-body-text">BodyCorn Dress</p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-12">
                         <img src="assets/images/west18.png" className="img-fluid"></img>
                         <p className="cstm-body-text">Maxi Dress</p>
                     </div>
 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4  col-12">
                         <img src="assets/images/west22.png" className="img-fluid"></img>
                         <p className="cstm-body-text">Cocktail Dress</p>
                     </div>
@@ -146,7 +154,7 @@ const Home = () => {
             <div className="container-fluid mt-5">
                 <div className="row">
 
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west24.jpg" className="img-fluid" alt="product" />
@@ -166,7 +174,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6  ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west25.jpg" className="img-fluid" alt="product" />
@@ -187,7 +195,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west27.jpg" className="img-fluid" alt="product" />
@@ -207,7 +215,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west28.jpg" className="img-fluid" alt="product" />
@@ -234,7 +242,7 @@ const Home = () => {
 
             <div className="container-fluid mt-5">
                 <div className="row">
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west29.jpg" className="img-fluid" alt="product" />
@@ -254,7 +262,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                      <div className="col-lg-3 ">
+                      <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west30.jpg" className="img-fluid" alt="product" />
@@ -274,7 +282,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3  col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west31.jpg" className="img-fluid" alt="product" />
@@ -294,7 +302,7 @@ const Home = () => {
                         </div>
                     </div>
                   
-                    <div className="col-lg-3 ">
+                    <div className="col-lg-3 col-12 col-sm-6 ">
                         <div className="product-card-home">
                             <div className="product-img">
                                 <img src="assets/images/west32.jpg" className="img-fluid" alt="product" />

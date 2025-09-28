@@ -42,23 +42,14 @@ const Header = () => {
 
                 {/* Middle bar */}
                 <div className="middle-bar">
-                    {/* <div className="left">
-                        <span>English</span>
-                        <FaUser className="icon" />
-                    </div> */}
-
                     <img src="assets/images/west10.png" className="cstm-logo" />
                     <div className="right">
-                        {/* <FaSearch className="icon" /> */}
                          <FaSearch size={25} onClick={() => setIsSearchOpen(true)}  className='mt-1' />
                         <div className="cart">
-                            {/* <FaShoppingBag className="icon" /> */}
                              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">   <FaShoppingBag  size={25}/></button>
-
                         </div>
                         <div className="wishlist">
                            <NavLink to="/login"  className="cstm-link-user"><FaUser size={25} /></NavLink>
-
                         </div>
                     </div>
                 </div>
